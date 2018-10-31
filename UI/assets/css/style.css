@@ -102,5 +102,5 @@ body {
 }
 a{
     color :black;
-    text-underline-mode: off;
+    text-decoration: none;
 }
