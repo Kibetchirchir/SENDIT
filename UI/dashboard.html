@@ -20,11 +20,40 @@
     <div class="right_nav">
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="#news">My parcels</a></li>
+            <li><a href="#contact">undelivered</a></li>
+            <li><a href="#about">settings</a></li>
         </ul>
     </div>
+<div class="dashboard_content">
+    <div class="dashboard_content">
+        <form class="normaltext" id="form1" action="login.html">
+            <label><i class="fa fa-truck"></i>Type of parcel</label><br>
+            <input type="text" required placeholder="letter"><br>
+            <label class="fa fa-address-book">Adress</label><br>
+            <input type="text" required placeholder="5th street moi avenue"><br>
+            <label class="fa fa-phone">Phone number of the recepient</label><br>
+            <input type="number" required placeholder="254715428709"><br>
+            <label class="fa fa-building">Town</label><br>
+            <input type="text" required placeholder="Nairobi"><br>
+            <label class="fa fa-flag">Building Name</label><br>
+            <input type="text" placeholder="Nation centre"><br>
+            <label class="fa fa-calender-alt">estimated weight</label>
+            <select>
+                <option selected value="1">below 1kg</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">Above 5</option>
+            </select><br>
+            <label class="fa fa-notebook">Addition comments</label>
+            <textarea rows="4" cols="50" placeholder="Fragile handle with care or flamable"></textarea><br>
+
+            <button type="cancel" id="button_failed" form="form1" value="cancel">Cancel</button>
+            <button type="submit" id="button_success" form="form1" value="Submit">Submit</button>
+        </form>
+    </div>
+</div>
     <div class="footnote">
         <i>find us on<br><i></i>
             <a href="www.twitter.com"><i class="fa fa-twitter" id="objects">twitter</i></a><br>
