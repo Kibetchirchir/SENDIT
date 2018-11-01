@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d568dad-7aa0-45e5-894e-1d61ae838bd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UI/adminlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/UI/adminlogin.html" afterDir="false" />
-    </list>
+    <list default="true" id="6d568dad-7aa0-45e5-894e-1d61ae838bd4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,14 +20,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="9" />
+          <entry key="html" value="10" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="9" />
+          <entry key="HTML" value="10" />
           <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
@@ -80,34 +78,19 @@
         <entry file="file://$PROJECT_DIR$/UI/profile.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/signin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="26" column="14" lean-forward="true" selection-end-line="50" />
+              <caret line="25" column="6" lean-forward="true" selection-start-line="19" selection-end-line="25" selection-end-column="6" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UI/adminlogin.html">
+        <entry file="file://$PROJECT_DIR$/UI/admindashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" selection-start-line="56" selection-start-column="4" selection-end-line="123" />
+            <state relative-caret-position="337">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -156,6 +139,7 @@
         <option value="$PROJECT_DIR$/UI/assets/css/style.css" />
         <option value="$PROJECT_DIR$/UI/profile.html" />
         <option value="$PROJECT_DIR$/UI/adminlogin.html" />
+        <option value="$PROJECT_DIR$/UI/admindashboard.html" />
       </list>
     </option>
   </component>
@@ -241,12 +225,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541012348394</updated>
       <workItem from="1541012349976" duration="14513000" />
-      <workItem from="1541047418801" duration="16585000" />
+      <workItem from="1541047418801" duration="17097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31098000" />
+    <option name="totallyTimeSpent" value="31610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -327,18 +311,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/dashboard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" selection-start-line="56" selection-start-column="4" selection-end-line="123" />
+        <state relative-caret-position="240">
+          <caret line="16" column="42" selection-end-line="135" />
           <folding>
             <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/profile.html">
+    <entry file="file://$PROJECT_DIR$/UI/adminlogin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -349,10 +333,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/adminlogin.html">
+    <entry file="file://$PROJECT_DIR$/UI/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="25" column="6" lean-forward="true" selection-start-line="19" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/admindashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#form#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
