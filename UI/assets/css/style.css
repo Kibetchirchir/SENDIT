@@ -206,6 +206,7 @@ select{
     height: 40%;
     background-color: rgb(192,192,192,a=0.5);
     text-align: center;
+    padding-top: 10px;
 }
 
 
