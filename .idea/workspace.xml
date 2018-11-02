@@ -71,13 +71,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="19" />
+          <entry key="html" value="35" />
           <entry key="md" value="210" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="19" />
+          <entry key="HTML" value="35" />
           <entry key="Markdown" value="210" />
         </counts>
       </usages-collector>
@@ -131,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/../../UI/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -276,12 +276,12 @@
       <workItem from="1541145552326" duration="258000" />
       <workItem from="1541146206385" duration="261000" />
       <workItem from="1541155497666" duration="2484000" />
-      <workItem from="1541193688250" duration="400000" />
+      <workItem from="1541193688250" duration="1118000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43773000" />
+    <option name="totallyTimeSpent" value="44491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -426,7 +426,7 @@
     <entry file="file://$PROJECT_DIR$/../../UI/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
         </state>
       </provider>
     </entry>
