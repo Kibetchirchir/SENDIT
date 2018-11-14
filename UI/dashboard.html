@@ -24,7 +24,7 @@
 </div>
 <div class="dashboard_content">
     <div class="dashboard_content">
-        <form class="normaltext" id="form1" action="login.html">
+        <form class="normaltext" >
             <label><i class="fa fa-truck"></i>Type of parcel</label><br>
             <input type="text" required placeholder="letter"><br>
             <label class="fa fa-address-book">Adress</label><br>
@@ -46,9 +46,8 @@
             <label class="fa fa-notebook">Addition comments</label>
             <textarea rows="4" cols="50" placeholder="Fragile handle with care or flamable"></textarea><br>
 
-            <button type="cancel" id="button_failed" form="form1" value="cancel">Cancel</button>
-            <button type="submit" id="button_success" form="form1" value="Submit">Submit</button><br>
-            <span style="display:inline-block; width: 50%;"></span>
+            <button id="button_failed" onclick="Cancelled()">Cancel</button>
+            <button  id="button_success"  onclick="Ordered()">Submit</button><br>
         </form>
     </div>
     <div class="header">
@@ -72,8 +71,8 @@
             <td contenteditable="true">Nairobi</td>
             <td contenteditable="true">Alyusra</td>
             <td contenteditable="true">1 KG</td>
-            <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-            <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+            <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+            <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
         </tr>
         <tr>
             <td contenteditable="true">Letter</td>
@@ -82,8 +81,8 @@
             <td contenteditable="true">Nairobi</td>
             <td contenteditable="true">Alyusra</td>
             <td contenteditable="true">1 KG</td>
-            <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-            <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+            <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+            <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
         </tr>
         <tr>
             <td contenteditable="true">Letter</td>
@@ -92,8 +91,8 @@
             <td contenteditable="true">Nairobi</td>
             <td contenteditable="true">Alyusra</td>
             <td contenteditable="true">1 KG</td>
-            <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-            <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+            <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+            <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
         </tr>
         <tr>
             <td contenteditable="true">Letter</td>
@@ -102,8 +101,8 @@
             <td contenteditable="true">Nairobi</td>
             <td contenteditable="true">Alyusra</td>
             <td contenteditable="true">1 KG</td>
-            <td><button type="submit"  form="form1" class="confirm" value="Submit">change</button></td>
-            <td><button type="submit" form="form1" value="Submit" class="cancel">cancel</button></td>
+            <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+            <td><button onclick="Cancelled()" value="Submit" class="cancel">cancel</button></td>
         </tr>
         <tr>
             <td contenteditable="true">Letter</td>
@@ -112,8 +111,8 @@
             <td contenteditable="true">Nairobi</td>
             <td contenteditable="true">Alyusra</td>
             <td contenteditable="true">1 KG</td>
-            <td><button type="submit" class="confirm"  form="form1" value="Submit">change</button></td>
-            <td><button type="submit"  class="cancel" value="Submit">cancel</button></td>
+            <td><button onclick="Changed()" class="confirm" >change</button></td>
+            <td><button onclick="Cancelled()"  class="cancel">cancel</button></td>
         </tr>
     </table>
 
@@ -129,4 +128,19 @@
     </div>
 </div>
 </body>
+<script>
+function Cancelled() {
+    alert("Cancelled!");
+}
+</script>
+<script>
+function Ordered() {
+    alert("Ordered made!");
+}
+</script>
+<script>
+function Changed() {
+    alert("Order changed!");
+}
+</script>
 </html>

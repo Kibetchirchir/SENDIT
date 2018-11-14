@@ -63,8 +63,8 @@
                 <td contenteditable="true">Nairobi</td>
                 <td contenteditable="true">Alyusra</td>
                 <td contenteditable="true">1 KG</td>
-                <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-                <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+                <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+                <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
             </tr>
             <tr>
                 <td contenteditable="true">Letter</td>
@@ -73,8 +73,8 @@
                 <td contenteditable="true">Nairobi</td>
                 <td contenteditable="true">Alyusra</td>
                 <td contenteditable="true">1 KG</td>
-                <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-                <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+                <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+                <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
             </tr>
             <tr>
                 <td contenteditable="true">Letter</td>
@@ -83,8 +83,8 @@
                 <td contenteditable="true">Nairobi</td>
                 <td contenteditable="true">Alyusra</td>
                 <td contenteditable="true">1 KG</td>
-                <td><button type="submit" form="form1" class="confirm" value="Submit">change</button></td>
-                <td><button type="submit" form="form1" class="cancel" value="Submit">cancel</button></td>
+                <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+                <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
             </tr>
             <tr>
                 <td contenteditable="true">Letter</td>
@@ -93,8 +93,8 @@
                 <td contenteditable="true">Nairobi</td>
                 <td contenteditable="true">Alyusra</td>
                 <td contenteditable="true">1 KG</td>
-                <td><button type="submit"  form="form1" class="confirm" value="Submit">change</button></td>
-                <td><button type="submit" form="form1" value="Submit" class="cancel">cancel</button></td>
+                <td><button onclick="Changed()" class="confirm" value="Submit">change</button></td>
+                <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
             </tr>
             <tr>
                 <td contenteditable="true">Letter</td>
@@ -103,8 +103,8 @@
                 <td contenteditable="true">Nairobi</td>
                 <td contenteditable="true">Alyusra</td>
                 <td contenteditable="true">1 KG</td>
-                <td><button type="submit" class="confirm"  form="form1" value="Submit">change</button></td>
-                <td><button type="submit"  class="cancel" value="Submit">cancel</button></td>
+                <td><button onclick="Changed" class="confirm" value="Submit">change</button></td>
+                <td><button onclick="Cancelled()" class="cancel" value="Submit">cancel</button></td>
             </tr>
         </table>
         <div class="header">
@@ -183,4 +183,19 @@
 </div>
 </div>
 </body>
+<script>
+function Cancelled() {
+    alert("Cancelled!");
+}
+</script>
+<script>
+function Ordered() {
+    alert("Ordered made!");
+}
+</script>
+<script>
+function Changed() {
+    alert("Order changed!");
+}
+</script>
 </html>
