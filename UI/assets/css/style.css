@@ -253,4 +253,7 @@ table .cancel{
     display: flex;
     flex-wrap: wrap;
 }
-
+label{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
